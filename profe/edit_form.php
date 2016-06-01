@@ -4,6 +4,7 @@
 // se añaden las configuraciones necesarias para asi adaptar nuestro block
 class block_profe_edit_form extends block_edit_form {
  
+ 
     protected function specific_definition($mform) {
  
         // seccion del titulo en lenguaje acordado
