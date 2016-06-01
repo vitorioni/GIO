@@ -1,5 +1,6 @@
 <?php
 
+
 $host = "localhost";
 $basededatos = "moodle";
 $usuariodb = "root";
