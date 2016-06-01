@@ -2,6 +2,7 @@
 
 
 
+
 //Aca se crea el bloque
 class block_simplehtml extends block_list {
 	public function init() {
