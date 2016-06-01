@@ -1,17 +1,18 @@
 <?php
-//Se añaden las configuraciones necesarias para adaptar el bloque
+//Se aÃ±aden las configuraciones necesarias para adaptar el bloque
 class block_simplehtml_edit_form extends block_edit_form {
 
 	protected function specific_definition($mform) {
 
-		// Sección del título en lenguaje acordado	
+
+		// SecciÃ³n del tÃ­tulo en lenguaje acordado	
 		$mform->addElement('header', 'configheader', get_string('blocksettings', 'block'));
 
 		// A sample string variable with a default value.
 		$mform->addElement('text', 'config_text', get_string('blockstring', 'block_simplehtml'));
 		$mform->setDefault('config_text', 'default value');
 		$mform->setType('config_text', PARAM_RAW);
-		//Personalizar título
+		//Personalizar tÃ­tulo
 		$mform->addElement('text', 'config_title', get_string('blocktitle', 'block_simplehtml'));
 		$mform->setDefault('config_title', 'default value');
 		$mform->setType('config_title', PARAM_TEXT);
